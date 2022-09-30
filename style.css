@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+   
+
+}
+.hero{
+    height: 210%;
+    width: 100%;
+    background-image: url('./pexels-neosiam-594421.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    font-family:'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+} 
+.logo{
+    color: rgb(237, 241, 236);
+    font-size: 40px ;
+   padding-left: 5%;
+   padding-right: 20%;
+   letter-spacing: 1px;
+   cursor: pointer;
+   }
+   span{
+       color: rgb(223, 10, 10);
+   }
+nav ul li{
+    list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px;
+      
+    }
+    nav ul li a{
+        color: rgb(232, 239, 234);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+        
+    }
+    nav ul li a:hover{
+   color: rgb(201, 28, 28);
+    transition: .4s;
+    }
+.container{
+    padding-top:  9%;  
+    padding-left: 38%;
+    color: aliceblue;
+    font-size: 1.5em;
+    }
+.about h5{
+    color: aliceblue;
+    font-size: 75px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-left: 20%;
+}
+.about{
+    color: aliceblue;
+     font-family: 'Oswald';
+     font-size: large;
+     padding-top: 20%;
+    padding-left: 50%;
+
+}
+.about iframe{
+    width: 60%;
+    height: 300px;
+ 
+}
+.text{
+    color: aliceblue; 
+    font-family: 'Oswald';
+    font-size: large;
+    padding-top: 20%;
+   padding-right: 50%;
+
+
+}
+ .text h6{
+    color: aliceblue;
+    text-decoration: underline;
+    display: inline-flex;
+    font-size: 75px;
+    padding-left: 20%;
+    text-transform: capitalize;
+}
+.text p{
+    color: aliceblue;
+    font-size: large;
+   padding-left: 8%;
+}
+ 
+.text-two{
+    color: aliceblue; 
+    font-family: 'Oswald';
+    font-size: large;
+    padding-top: 20%;
+   padding-left: 50%;
+
+}
+ .text-two h7{
+    color: aliceblue;
+    font-size: 75px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-left: 20%;
+}
+
+
+.content h8{
+color: aliceblue;
+font-size: 75px;
+text-decoration: underline;
+text-transform: capitalize;
+padding-left: 8%;
+
+}
+.content{
+    color: aliceblue; 
+    font-family: 'Oswald';
+    font-size: large;
+    padding-top: 20%;
+   padding-left: 70%;  
+}
+
+ .contact-content{
+    font-family: 'Franklin Gothic Medium';
+    width: 60%;
+    padding: 12px 0px;
+    border-radius: 30px;
+    border: solid 2px rgb(198, 4, 4);
+    margin: 15px;
+ }
+ 
+ .btn{
+background-color: rgb(216, 19, 19);
+color: aliceblue;
+text-decoration: none;
+border: 10px solid transparent;
+border-radius: 20px;
+margin-left: 40%;
+    }
+ .btn:hover {
+  background-color: rgb(194, 100, 100);
+   transform: scale(1.2);
+    }
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    transition: .3s;
+  padding-top: 17%;
+  padding-left: 3%;
+  padding-right: 3%;
+    
+}
+
+.box a {
+    color: rgb(247, 242, 242);
+}
+.box :hover{
+    color: rgb(201, 28, 28);
+   transform: scale(1.2);
+}
+
+.col{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-left: 85% ; 
+    letter-spacing: 1px;
+    cursor: pointer;
+   
+}
+    
+
